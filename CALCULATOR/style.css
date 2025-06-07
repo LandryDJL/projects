@@ -109,3 +109,24 @@ button:hover {
   background-color: #ff7300;
   color: #ffffff;
 }
+
+@media (max-width: 500px) {
+  .screen-outline {
+    width: 90%;
+  }
+  .keys-block {
+    width: 90%;
+  }
+  button {
+    width: 60px;
+    height: 60px;
+    font-size: 2rem;
+  }
+  #clear {
+    font-size: 1.5rem;
+  }
+  h1 {
+    font-size: 2rem;
+    margin: 20px;
+  }
+}
